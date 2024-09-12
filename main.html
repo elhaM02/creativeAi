@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./main.css">
+
+    <title> Creative people </title>
+
+    <style>
+    </style>
+
+</head>
+<body>
+
+    <div class="main">
+        <!-- <div class="groups">
+            <div class="group">
+                <div class="groupInfo"></div>
+            </div>
+
+        </div> -->
+
+        <div class="conversation">
+            
+            <div class="message-box ${senderClass}">
+                <div class="sender"> ${sender} </div>
+                    <div class="message-text">
+                        ${message}
+                    </div>
+                <div class="time"> ${currentTime} </div>
+            </div>
+
+            <div class="message-box ${senderClass}">
+                <div class="sender"> ${sender} </div>
+                    <div class="message-text">
+                        ${message}
+                    </div>
+                <div class="time"> ${currentTime} </div>
+            </div>
+
+            <div class="message-box ${senderClass}">
+                <div class="sender"> ${sender} </div>
+                    <div class="message-text">
+                        ${message}
+                    </div>
+                <div class="time"> ${currentTime} </div>
+            </div>
+
+            <div class="message-box ${senderClass}">
+                <div class="sender"> ${sender} </div>
+                    <div class="message-text">
+                        ${message}
+                    </div>
+                <div class="time"> ${currentTime} </div>
+            </div>
+
+        </div>
+
+        <div class="inputs">
+            
+            <div class="message-input">
+                <input class="message_input" type="text" placeholder="Sup dawg!">
+
+                <div class="input-send-icon">
+                    <img class="send" src="./icons8-send-32.png" alt="" height="14px">
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</html>
